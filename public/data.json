@@ -1,0 +1,130 @@
+{
+  "links": {
+    "next": "https://api.nasa.gov/neo/rest/v1/neo/browse?page=2&api_key=DEMO_KEY",
+    "self": "https://api.nasa.gov/neo/rest/v1/neo/browse?api_key=DEMO_KEY"
+  },
+  "page": 1,
+  "size": 5,
+  "near_earth_objects": [
+    {
+      "neo_reference_id": "2000196",
+      "name": "2000 SG344",
+      "absolute_magnitude_h": 20.3,
+      "estimated_diameter": {
+        "meters": {
+          "estimated_diameter_min": 160.36,
+          "estimated_diameter_max": 358.74
+        },
+        "kilometers": {
+          "estimated_diameter_min": 0.16036,
+          "estimated_diameter_max": 0.35874
+        },
+        "miles": {
+          "estimated_diameter_min": 0.0995,
+          "estimated_diameter_max": 0.2228
+        },
+        "feet": {
+          "estimated_diameter_min": 526.28,
+          "estimated_diameter_max": 1175.60
+        }
+      },
+      "is_potentially_hazardous_asteroid": true,
+      "close_approach_data": [
+        {
+          "close_approach_date": "2022-09-23",
+          "miss_distance": {
+            "astronomical": 0.09102,
+            "lunar": 35.48,
+            "kilometers": 13614313.41,
+            "miles": 8441150.38
+          },
+          "relative_velocity": {
+            "kilometers_per_second": 15.74,
+            "miles_per_hour": 35374.55
+          },
+          "orbiting_body": "Mars"
+        }
+      ]
+    },
+    {
+      "neo_reference_id": "2020002",
+      "name": "2020 BX12",
+      "absolute_magnitude_h": 26.3,
+      "estimated_diameter": {
+        "meters": {
+          "estimated_diameter_min": 14.06,
+          "estimated_diameter_max": 31.48
+        },
+        "kilometers": {
+          "estimated_diameter_min": 0.01406,
+          "estimated_diameter_max": 0.03148
+        },
+        "miles": {
+          "estimated_diameter_min": 0.00873,
+          "estimated_diameter_max": 0.01955
+        },
+        "feet": {
+          "estimated_diameter_min": 46.13,
+          "estimated_diameter_max": 103.77
+        }
+      },
+      "is_potentially_hazardous_asteroid": false,
+      "close_approach_data": [
+        {
+          "close_approach_date": "2020-01-26",
+          "miss_distance": {
+            "astronomical": 0.07822,
+            "lunar": 30.41,
+            "kilometers": 11675552.38,
+            "miles": 7262633.56
+          },
+          "relative_velocity": {
+            "kilometers_per_second": 8.69,
+            "miles_per_hour": 19447.93
+          },
+          "orbiting_body": "Venus"
+        }
+      ]
+    },
+    {
+      "neo_reference_id": "2020041",
+      "name": "2020 OP3",
+      "absolute_magnitude_h": 21.9,
+      "estimated_diameter": {
+        "meters": {
+          "estimated_diameter_min": 25.14,
+          "estimated_diameter_max": 56.13
+        },
+        "kilometers": {
+          "estimated_diameter_min": 0.02514,
+          "estimated_diameter_max": 0.05613
+        },
+        "miles": {
+          "estimated_diameter_min": 0.01561,
+          "estimated_diameter_max": 0.03486
+        },
+        "feet": {
+          "estimated_diameter_min": 82.4,
+          "estimated_diameter_max": 184.56
+        }
+      },
+      "is_potentially_hazardous_asteroid": true,
+      "close_approach_data": [
+        {
+          "close_approach_date": "2020-10-30",
+          "miss_distance": {
+            "astronomical": 0.02956,
+            "lunar": 11.51,
+            "kilometers": 4424915.21,
+            "miles": 2740436.48
+          },
+          "relative_velocity": {
+            "kilometers_per_second": 7.98,
+            "miles_per_hour": 17879.99
+          },
+          "orbiting_body": "Earth"
+        }
+      ]
+    }
+  ]
+}
